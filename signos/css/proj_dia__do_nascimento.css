@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    font-size: 30px;
+    background-image: url("../signos_imgs/shenlong.jpg");
+
+   border-color: rgb(231, 229, 231);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+     color: rgb(251, 251, 251);
+}
+
+.fundo{
+    backdrop-filter: blur(30px);
+        color: rgb(253, 251, 251);
+    border: 5px solid;
+    padding: 90px;
+   border-radius: 100px;
+   width: 600px;
+   justify-content: center;
+   margin-left: 30%;
+   margin-top: 6%;
+   margin-right:20%;
+   margin-bottom: 2%;
+   box-shadow: 0px 0px 150px #071f6e;
+}
+
+#figura{
+    width: 150px;
+    height: 150px;
+
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/proj_dia__do_nascimento.css">
+    <script src="../javascript/objdate_proj_dia_q_eu_nasci.js"></script>
+    <title>O dia em que eu nasci</title>
+</head>
+<body>
+    <div class="fundo">
+    <form>
+    <h1>O dia em que nasci</h1><br>
+    O dia em que você nasceu:<input type="text" id="dia_txt"><br>
+    O mês em que você nasceu:<input type="text" id="mes_txt"><br>
+    O ano em que você nasceu:<input type="text" id="ano_txt"><br>
+    Seu mês de nascimento é:<input type="text" id="seu_txt" disabled><br>
+    Seu dia da semana foi: <input type="text" id="dia_sem_txt" disabled><br>
+    Sob o signo de:<br> <img src="../signos_imgs/quadrado-branco.jpg" id="figura" name="signos" ><br>
+    <p id="texto"></p>
+    E a sua idade é: <input type="text" id="idade_txt" disabled> <br>
+       <input type="button"  value="calcular" onClick="exibir()" />
+        <input type="reset"  value="limpar" onClick="document.getElementById('').focus()" />
+    </form>
+    </div>
+</body>
+</html>
